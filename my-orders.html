@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- START:: UTF8 -->
+    <meta charset="UTF-8">
+    <!-- START::  AUTHOR -->
+    <meta name="author" content="AhMeD EL-AwaDy">
+    <!-- START:: ROBOTS -->
+    <meta name="robots" content="index/follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- START:: VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- START:: HANDHELFRIENDLY -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- START:: DESCRIPTION -->
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+    <!-- START:: KEYWORD -->
+    <meta name="keyword"
+        content="agency, business, corporate, creative, freelancer, minimal, modern, personal, portfolio, responsive, simple, cartoon">
+    <!-- START:: THEME COLOR -->
+    <meta name="theme-color" content="#212121">
+    <!-- START:: THEME COLOR IN MOBILE -->
+    <meta name="msapplication-navbutton-color" content="#15264B">
+    <!-- START:: THEME COLOR IN MOBILE -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#15264B">
+    <!-- START:: TITLE -->
+    <title>Gado Eg Store - Profile - My Orders</title>
+    <!-- START:: FAVICON -->
+    <link rel="shortcut icon" type="image/svg" href="assets/images/logo/favicon.svg">
+    <!-- START:: STYLE LIBRARIES -->
+
+    <!-- START:: BOOTSTRAP -->
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-range.css">
+    <!-- START:: FANCY BOX -->
+    <link rel="stylesheet" href="assets/css/fancyBox/fancy.css">
+    <!-- START:: OWL CAROUSEL -->
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.default.min.css">
+    <!-- START:: ANIMATE -->
+    <link rel="stylesheet" href="assets/css/animate/animate.css">
+    <!-- START:: FONT AWSOME -->
+    <link rel="stylesheet" href="assets/css/font-awsome/all.css">
+    <!-- START:: CUSTOM STYLE -->
+    <link rel="stylesheet" href="assets/css/custom/style.css" />
+
+    <!-- END:: STYLE LIBRARIES -->
+</head>
+
+<body>
+    <!-- START:: HEADER -->
+    <header>
+        <!-- START:: TOP HEADER -->
+        <div class="top_header">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="phone_number">
+                        <a href="tel:(0096) 88 123 456 12">
+                            <img src="./assets/images/icons/phone.svg" alt="" height="" width="">
+                            (0096) 88 123 456 12
+                        </a>
+                    </div>
+
+                    <div class="login_lang">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./assets/images/icons/saudi.svg" alt="" height="" width="" />
+                                العربية
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="./assets/images/icons/saudi.svg" alt="" height="" width="" />
+                                        العربية
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="./assets/images/icons/saudi.svg" alt="" height="" width="" />
+                                        English
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropdown login_btns_with_auth">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./assets/images/icons/user.svg" alt="" height="" width="" />
+                                <span>المف الشخصي</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item" href="./profile.html">
+                                        <img src="./assets/images/icons/setting.svg" alt="" height="" width="" />
+                                        الملف الشخصي
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./my-orders.html">
+                                        <img src="./assets/images/icons/cart_p.svg" alt="" height="" width="" />
+                                        طلباتي
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="./assets/images/icons/logout.svg" alt="" height="" width="" />
+                                        تسجيل الخروج
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="login_btns">
+                            <img src="./assets/images/icons/user.svg" alt="" height="" width="" />
+                            <ul>
+                                <li><a href="./login.html">دخول</a></li>
+                                <li>/</li>
+                                <li><a href="./register.html">إنشاء حساب</a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END:: TOP HEADER -->
+
+        <!-- START:: CENTER HEADER -->
+        <div class="center_header">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <div class="logo_site">
+                        <img src="./assets/images/logo/logo.svg" alt="" height="" width="">
+                    </div>
+
+                    <div class="search_site">
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="searchIcon" placeholder="ابحث هنا">
+                                <button type="submit"><img src="./assets/images/icons/search.svg" alt="" width=""
+                                        height="" /> </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="wishlist_cart">
+                        <div class="wishlist_icon">
+                            <a href="#">
+                                <img src="./assets/images/icons/heart.svg" alt="" width="" height="" />
+                                <small>0</small>
+                            </a>
+                        </div>
+                        <div class="cart_icon">
+                            <a href="#">
+                                <div>
+                                    <img src="./assets/images/icons/cart.svg" alt="" width="" height="" />
+                                    <small>0</small>
+                                </div>
+                                <div>
+                                    <h6>عربة التسوق</h6>
+                                    <p>500 ر.س</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- END:: CENTER HEADER -->
+
+        <!-- START:: BOTTOM HEADER -->
+        <div class="bottom_header">
+            <div class="container">
+                <nav class="main_menu">
+                    <ul>
+                        <li><a href="./index.html" class="active">الرئيسية</a></li>
+                        <li><a href="./show-more.html">عروض اليوم</a></li>
+                        <li><a href="./about-us.html">معلومات عنا</a></li>
+                        <li>
+                            <a href="./show-more.html">
+                                المضاف حديثا
+                                <small>جديد</small>
+                            </a>
+                        </li>
+                        <li><a href="./show-more.html">الأكثر مبيعا</a></li>
+                        <li><a href="#">عنوان القسم</a></li>
+                        <li><a href="./contact-us.html">تواصل معنا</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- END:: BOTTOM HEADER -->
+
+        <!-- START:: HEADER MOBILE -->
+        <div class="mobile_header">
+            <div class="logo_mobile">
+                <img src="./assets/images/logo/w-logo.svg" width="" height="" alt="">
+            </div>
+            <div class="btn_menu">
+                <button type="button" class="toggleClassBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <nav class="side_menu_mobile main_menu">
+            <ul>
+                <li><a href="#" class="active">الرئيسية</a></li>
+                <li><a href="#">عروض اليوم</a></li>
+                <li><a href="#">معلومات عنا</a></li>
+                <li>
+                    <a href="#">
+                        المضاف حديثا
+                        <small>جديد</small>
+                    </a>
+                </li>
+                <li><a href="#">الأكثر مبيعا</a></li>
+                <li><a href="#">عنوان القسم</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+        </nav>
+        <div class="overLay_side_menu"> </div>
+
+        <!-- END:: HEADER MOBILE -->
+    </header>
+    <!-- END:: HEADER -->
+
+    <main>
+        <!-- START:: BREADCRUMBS -->
+        <div class="breadcrumbs">
+            <div class="container">
+                <h1>الملف الشخصى</h1>
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <img src="./assets/images/icons/home.svg" alt="" height="" width="" />
+                            الرئيسية
+                        </a>
+                    </li>
+                    <li>/</li>
+                    <li><a href="./profile.html">الملف الشخصى</a> </li>
+                    <li>/</li>
+                    <li class="active">طلباتي</li>
+                </ul>
+            </div>
+        </div>
+        <!-- END:: BREADCRUMBS -->
+
+        <!-- START:: CONTENT PAGE -->
+        <div class="content_single_page">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="profile_list">
+                            <ul>
+                                <li>
+                                    <a href="./profile.html">
+                                        <img src="./assets/images/icons/setting.svg" alt="" width="" height="" />
+                                        الملف الشخصى
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="active" href="./profile.html">
+                                        <img src="./assets/images/icons/cart_p.svg" alt="" width="" height="" />
+                                        طلباتى
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./profile.html">
+                                        <img src="./assets/images/icons/logout.svg" alt="" width="" height="" />
+                                        تسجيل خروج
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="product_details_section content_page_shop   mb-3 p-0">
+                            <div class="title_page">
+                                <h4>جميع الطلبات</h4>
+                            </div>
+                            <!-- START:: SINGLE ITEM -->
+                            <div class="single_item_shop single_item_shop_other">
+                                <div class="itemFlex">
+                                    <div class="image_item">
+                                        <a href="#">
+                                            <img src="./assets/images/products/product-3.svg" alt="" width="" height="">
+                                        </a>
+                                    </div>
+                                    <div class="content_item">
+                                        <!-- START:: HEAD  -->
+                                        <div class="head_details">
+                                            <h5>أدوات مقعد <small>Apil 2,2022</small></h5>
+                                            <h4><a href="./order-step-one.html">شنيور عادة و دقاق يمين و شمال - قدرة 680 وات 13 مم</a>
+                                            </h4>
+                                            <h5 class="span">رقم الشحنة : <span>25486425</span></h5>
+                                        </div>
+                                        <!-- START:: STATUS -->
+                                        <div class="status_part">
+                                            <p>
+                                                <img src="./assets/images/icons/status.svg" width="" height="" alt="">
+                                                الحالة :
+                                                <span class="orange">جارى التجهيز</span>
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END:: SINGLE ITEM -->
+
+                            <!-- START:: SINGLE ITEM -->
+                            <div class="single_item_shop single_item_shop_other">
+                                <div class="itemFlex">
+                                    <div class="image_item">
+                                        <a href="./order-step-two.html">
+                                            <img src="./assets/images/products/product-3.svg" alt="" width="" height="">
+                                        </a>
+                                    </div>
+                                    <div class="content_item">
+                                        <!-- START:: HEAD  -->
+                                        <div class="head_details">
+                                            <h5>أدوات مقعد <small>Apil 2,2022</small></h5>
+                                            <h4><a href="#">شنيور عادة و دقاق يمين و شمال - قدرة 680 وات 13 مم</a>
+                                            </h4>
+                                            <h5 class="span">رقم الشحنة : <span>25486425</span></h5>
+                                        </div>
+                                        <!-- START:: STATUS -->
+                                        <div class="status_part">
+                                            <p>
+                                                <img src="./assets/images/icons/status.svg" width="" height="" alt="">
+                                                الحالة :
+                                                <span class="orange">في الطريق</span>
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END:: SINGLE ITEM -->
+
+                            <!-- START:: SINGLE ITEM -->
+                            <div class="single_item_shop single_item_shop_other">
+                                <div class="itemFlex">
+                                    <div class="image_item">
+                                        <a href="#">
+                                            <img src="./assets/images/products/product-3.svg" alt="" width="" height="">
+                                        </a>
+                                    </div>
+                                    <div class="content_item">
+                                        <!-- START:: HEAD  -->
+                                        <div class="head_details">
+                                            <h5>أدوات مقعد <small>Apil 2,2022</small></h5>
+                                            <h4><a href="./order-step-three.html">شنيور عادة و دقاق يمين و شمال - قدرة 680 وات 13 مم</a>
+                                            </h4>
+                                            <h5 class="span">رقم الشحنة : <span>25486425</span></h5>
+                                        </div>
+                                        <!-- START:: STATUS -->
+                                        <div class="status_part">
+                                            <p>
+                                                <img src="./assets/images/icons/status.svg" width="" height="" alt="">
+                                                الحالة :
+                                                <span>تم إستلامها</span>
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END:: SINGLE ITEM -->
+
+                            <!-- START:: SINGLE ITEM -->
+                            <div class="single_item_shop single_item_shop_other">
+                                <div class="itemFlex">
+                                    <div class="image_item">
+                                        <a href="#">
+                                            <img src="./assets/images/products/product-3.svg" alt="" width="" height="">
+                                        </a>
+                                    </div>
+                                    <div class="content_item">
+                                        <!-- START:: HEAD  -->
+                                        <div class="head_details">
+                                            <h5>أدوات مقعد <small>Apil 2,2022</small></h5>
+                                            <h4><a href="./order-step-three.html">شنيور عادة و دقاق يمين و شمال - قدرة 680 وات 13 مم</a>
+                                            </h4>
+                                            <h5 class="span">رقم الشحنة : <span>25486425</span></h5>
+                                        </div>
+                                        <!-- START:: STATUS -->
+                                        <div class="status_part">
+                                            <p>
+                                                <img src="./assets/images/icons/status.svg" width="" height="" alt="">
+                                                الحالة :
+                                                <span>تم إستلامها</span>
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END:: SINGLE ITEM -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- END:: CONTENT PAGE -->
+    </main>
+
+    <!-- START:: FOOTER -->
+    <footer>
+
+        <!-- START:: NEW LETTERS -->
+        <div class="new_letters">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="d-flex align-items-center">
+                            <div class="big_new_letters">
+                                <img src="./assets/images/icons/message-w.svg" alt="" width="" height="">
+                            </div>
+                            <div class="text_new_letters">
+                                <h4>النشرة البريدية</h4>
+                                <p>أدخل بريدك الالكترونى واشترك الان ليصلك جديدنا</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="subscripe_form">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="email" class="form-control"
+                                        placeholder="برحاء ادخال البريد الالكترونى">
+                                    <button type="submit" class="btn-animation-3">
+                                        إشترك الأن
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END:: NEW LETTERS -->
+
+        <!-- START:: MAIN FOOTER -->
+        <div class="main_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="about_footer">
+                            <div class="title_footer">
+                                <h4>عن المتجر</h4>
+                            </div>
+                            <div class="text_footer">
+                                <p>أكبر متاجر الأدوات الهندسية عبر الإنترنت .يمكنك شراء الأدوات الهندسية بجميع انواعها .
+                                    لدينا
+                                    مجموعة حصرية من الادوات تصل إلى مستوى السوق العالمية</p>
+                                <div class="download_links">
+                                    <a href="#">
+                                        <img src="./assets/images/icons/google.svg" alt="" width="" height="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./assets/images/icons/apple.svg" alt="" width="" height="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="title_footer">
+                            <h4>حسابي</h4>
+                        </div>
+                        <div class="list_footer">
+                            <ul>
+                                <li><a href="#">حسابي</a></li>
+                                <li><a href="#">طلباتي</a></li>
+                                <li><a href="#">المفضلة</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="title_footer">
+                            <h4>روابط هامة</h4>
+                        </div>
+                        <div class="list_footer">
+                            <ul>
+                                <li><a href="#">تواصل معنا</a></li>
+                                <li><a href="#">من نحن</a></li>
+                                <li><a href="#">الشروط والاحكام</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="title_footer">
+                            <h4>تواصل معنا</h4>
+                        </div>
+                        <div class="contact_info">
+                            <p>الدعم الفني</p>
+                            <a href="tel:(0096) 88 123 456 12">
+                                <img src="./assets/images/icons/phone-red.svg" alt="" height="" width="">
+                                (0096) 88 123 456 12
+                            </a>
+                        </div>
+                        <div class="contact_info">
+                            <p>التواصل الاجتماعى</p>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END:: MAIN FOOTER -->
+
+        <!-- START:: COPYRIGHTS -->
+        <div class="copy_rights">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="right_part">
+                        <p>
+                            جميع الحقوق محفوظة لـ
+                            <a href="#">إسم الموقع</a>
+                        </p>
+                    </div>
+                    <div class="right_part">
+                        <img src="./assets/images/icons/payments.svg" width="" height="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END:: COPYRIGHTS -->
+
+        <!-- START:: FOOTER MOBILE -->
+        <div class="footer_mobile">
+            <ul>
+                <li>
+                    <a href="./cart.html">
+                        <img src="./assets/images/icons/cart.svg" width="" height="" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="./favourite.html">
+                        <img src="./assets/images/icons/heart.svg" width="" height="" alt="">
+                    </a>
+                </li>
+                <li>
+                    <button type="button">
+                        <img src="./assets/images/icons/search-w.svg" width="" height="" alt="">
+                    </button>
+                </li>
+                <li>
+                    <a href="./profile.html">
+                        <img src="./assets/images/icons/user.svg" width="" height="" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- END:: FOOTER MOBILE -->
+
+        <!-- START:: SEARCH FOOTER -->
+        <div class="search_area">
+            <form action="#">
+                <div class="form-group">
+                    <input type="search" class="form-control" id="searchIcon" placeholder="ابحث هنا">
+                    <button type="submit"><img src="./assets/images/icons/search-w.svg" alt="" width="" height="" />
+                    </button>
+                </div>
+            </form>
+            <div class="searchOverLay"></div>
+        </div>
+        <!-- END:: SEARCH FOOTER -->
+    </footer>
+    <!-- END:: FOOTER -->
+
+    <!-- START:: INCLUDING SCRIPTS -->
+
+    <!-- START:: JQUERY -->
+    <script src="assets/js/jquery/jquery-3.4.1.min.js"></script>
+    <!-- START:: BOOTSTRAP -->
+    <script src="assets/js/bootstrap/popper.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap-range.js"></script>
+    <!-- START:: FANCY BOX -->
+    <script src="assets/js/fancybox/fancy.js"></script>
+    <!-- START:: OWL CAROUSEL -->
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- START:: FONT AWSOME -->
+    <script src="assets/js/font-awsome/all.js"></script>
+    <!-- START:: ANIMATE -->
+    <script src="assets/js/animate/wow.min.js"></script>
+    <!-- START:: CUSTOM JS -->
+    <script src="assets/js/custom/main.js"></script>
+    <!-- START::  -->
+</body>
+
+</html>
